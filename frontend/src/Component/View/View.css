@@ -1,0 +1,107 @@
+@media(min-width: 500px){
+    .Bimage{
+        width:50%;
+    }
+}
+
+@media (min-height: 500px) and (min-width: 580px){
+    .popup{
+        width:50%;
+        height:50%;
+    }
+}
+
+@media (min-height: 500px) and (min-width: 580px){
+    .loginContainer{
+        width:80%;
+        height:80%;
+    }
+}
+
+.Bimage{
+    background-image: url(./Images/b5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    /*-webkit-background-size: 100% 100%;*/
+    /*-moz-background-size: 100% 100%;*/
+    /*-o-background-size: 100% 100%;*/
+    /*background-size:  100% 100%;*/
+}
+
+.Bimagee{
+    background-image: url(./Images/b4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 98%;
+    width: 98%;
+    /*-webkit-background-size: 100% 100%;*/
+    /*-moz-background-size: 100% 100%;*/
+    /*-o-background-size: 100% 100%;*/
+    /*background-size:  100% 100%;*/
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.popup {
+    /*position: fixed;*/
+    width: 0%;
+    height: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    /*background-color: rgba(0,0,0, 0.5);*/
+}
+.popup_inner {
+    position: absolute;
+    left: 32%;
+    right: 32%;
+    top: 50%;
+    bottom: 25%;
+    margin: auto;
+    /*background: white;*/
+    /*background-color: rgba(0,0,0, 0.5);*/
+}
+
+.app {
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.login_popup_btn{
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: normal;
+    margin: auto;
+}
+/*.container {*/
+    /*height: 200px;*/
+    /*position: relative;*/
+    /*border: 3px solid green;*/
+/*}*/
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
